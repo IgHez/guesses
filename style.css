@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgb(0, 0, 0)), url("https://t4.ftcdn.net/jpg/04/66/34/49/240_F_466344916_uaEIAjgk8vjarZOzEZnTKYpZEfk708Vz.jpg");
+}
 
 main{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgb(0, 0, 0)), url("https://t4.ftcdn.net/jpg/04/66/34/49/240_F_466344916_uaEIAjgk8vjarZOzEZnTKYpZEfk708Vz.jpg");
+    
     background-position: center;
     color: white;
 }
