@@ -28,6 +28,8 @@ main{
     justify-content: center;
     gap: 30px;
     align-items: center;
+        overflow-y: hidden;
+
     /* padding-top: 30px; */
     /* position: absolute;
     top: 0;
