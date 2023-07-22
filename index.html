@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guesses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <h1>GUESS THE NUMBER!</h1>
+
+        </div>
+
+
+
+        <div class="main">
+            <div class="info">
+                <p>The objective of the "3 Lives Guessing Game" is simple - try to guess the number
+                    within
+                    three attempts. Each incorrect guess will cost you one life, and if you lose all three lives, the
+                    game
+                    ends. However, if you manage to guess the correct word or number before running out of lives, you'll
+                    be
+                    crowned the ultimate guessing champion!</p>
+            </div>
+            <div class="input">
+                <label for="userGuess" style="font-size: 25px;">Input Guess</label>
+            </div>
+            <input type="number" class="userInput" onfocus="this.value=''" placeholder="Guess" name="userGuess">
+
+            <div>
+                you have:<div class="lives" style="font-size: 20px;">3 live(s)</div>
+            </div>
+
+            <button class="btn" onclick="lunchGame()"
+                style="width: 200px; height: 30px;font-size: 20px; cursor: pointer;">Play</button>
+            <div class="inputMessage" style="color: red; font-size: 25px;">
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
